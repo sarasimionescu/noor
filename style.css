@@ -1,0 +1,347 @@
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: #424242;;
+}
+
+h2 {
+  font-weight: bold;
+  color:#ffb247;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.navbar-main {
+  background-color: #ffb247cf;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.home {
+    color:black;
+    text-decoration: none;
+}
+
+.home:hover {
+    color: white;
+}
+
+.navbar-brand {
+  font-family: 'Rock Salt', cursive;
+  font-size: 30px;
+}
+
+.navbar-brand img {
+    height:60px;
+    margin-right:15px;
+}
+  
+.despre .despre-img {
+    transition: 0.5s;
+}
+
+.despre-img img {
+    height: 400px;
+}
+  
+.despre .despre-img:hover {
+    transform: scale(1.03);
+}
+  
+.despre .content ul {
+    list-style: none;
+}
+  
+.despre .content ul i {
+    font-size: 20px;
+    color: #ffb247;
+}
+
+.accordion-item {
+  background-color:#cda45e;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.accordion-button {
+  background-color:#ffb247;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color:#1a1814;
+  color:#ffffff;
+}
+
+.accordion-button:focus {
+  box-shadow: inherit;
+}
+
+
+.de-ce-noi .box {
+  background: #1a1814;
+}
+
+.de-ce-noi .box span {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffb247;
+}
+
+.de-ce-noi .box h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.de-ce-noi .box p {
+  color: #aaaaaa;
+  font-size: 15px;
+}
+
+.de-ce-noi .box:hover {
+  background: #cda45e;
+}
+
+.menu #menu-sections {
+  list-style: none;
+}
+  
+.menu #menu-sections li {
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 50px;
+  padding: 15px;
+}
+  
+.menu #menu-sections li:hover,
+.menu #menu-sections li.filter-active {
+  color: #cda45e;
+}
+  
+.menu .menu-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+}
+  
+.menu .menu-content::after {
+  color: #bab3a6;
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+  
+.menu .menu-content a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+  
+.menu .menu-content a:hover {
+  color: #cda45e;
+}
+  
+.menu .menu-content span {
+  background: #424242;
+  font-weight: 600;
+  color: #cda45e;
+}
+  
+.menu .menu-ingredients {
+  font-style: italic;
+  font-size: 14px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.card {
+  background-color:#1b1b1b;
+}
+
+.card-body {
+  height: 200px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.nou {
+  background-color:#cda45e;
+}
+
+.nou:hover {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  color: black;
+}
+
+.events .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .events {
+    background-attachment: fixed;
+  }
+}
+
+.events .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.events .event-item {
+  color: #fff;
+}
+
+.events .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #cda45e;
+}
+
+.events .event-item .price {
+  font-size: 26px;
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.events .event-item .price span {
+  border-bottom: 2px solid #cda45e;
+}
+
+.events .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.events .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #cda45e;
+}
+
+.events .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.events .swiper-pagination {
+  margin-top: 30px;
+  position: relative;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 1;
+}
+
+.events .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #cda45e;
+}
+
+.gallery img {
+  height:230px;
+  border: double;
+}
+
+.gallery img:hover {
+  padding: 2px;
+}
+
+.chefs .member {
+  text-align: center;
+  position: relative;
+}
+
+.chefs .member .member-info-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+}
+
+.chefs .member .member-info-content h4 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
+
+.chefs .member .member-info-content span {
+  font-style: italic;
+  font-size: 13px;
+  color: #fff;
+}
+
+.contact .info-item {
+  background: #cda45e;
+  height: 100%;
+}
+  
+.contact .info-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.google-maps iframe {
+    border:0;
+    width: 100%; 
+    height: 350px;
+}
+
+.footer {
+    font-size: 14px;
+    background-color: #1b1b1b;
+    color: rgba(249, 249, 249, 0.648);
+}
+
+.footer-brand {
+    font-size: 25px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.footer-brand:hover {
+    color:#fff;
+}
+
+.footer-brand p {
+    font-size: 15px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.footer-brand img {
+    height: 45px;
+}
+
+.footer .social-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.social-links a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #fff;
+    border-color: #fff;
+}
+  

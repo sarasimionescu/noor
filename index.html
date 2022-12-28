@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Sara Simionescu">
+    <meta name="keywords" content="Restaurant, sustenabil, inclusiv, ecologic, rafinat, stele Michelin, rezervări, evenimente,
+    nunți, petreceri, botezuri, conferințe, mese de protocol, vegan, vegetarian, eco-friendly">
+    <meta name="description" content="Fondat în 2018, restaurantul Noor&Co. se bucură de bucătari de excepție, gusturi rafinate
+    și trei stele Michelin care ne recomandă, fie că dorești să sărbătorești un eveniment important la noi sau doar să ieși la cină cu prietenii.
+    Ne dorim să aducem în farfuria ta adevăratul gust al ingredientelor locale, proaspăt culese din surse sustenabile, gătite cu grijă și
+    mult drag de către bucătarii noștri. Susținem comunitățile locale, iar prin asta te asigurăm că mănânci sănătos.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title> Noor & Co. </title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-main fixed-top border-bottom border-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand d-flex justify-content-center align-items-center">
+            <a class="home ms-2" href="index.html">
+              <img src="turntable.png" alt="logo-ul Noor, un pick-up de vinyl">
+              Noor & Co.
+            </a>
+          </h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#despre">Despre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#meniu">Meniu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#evenimente">Evenimente</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-md-block ps-3 pe-2">
+                <a href="#rezervari-footer"> <button type="button" class="btn btn-dark" href="#footer">Rezervă acum</button> </a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <div id="carusel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="restaurant.jpg" class="d-block w-100" alt="Restaurant în stil industrial, cu geamuri înalte și stâlpi groși de
+          beton, decorat în galben, gri închis și negru, plante decorative și statuete, cu fotolii așezate în jurul unor mese rotunde">
+        </div>
+        <div class="carousel-item">
+          <img src="restaurant3.jpg" class="d-block w-100" alt="Restaurant elegant, cu canapele de piele de culoarea muștarului,
+          scaune de lemn și mese decorate cu tonuri de albastru, pe care sunt așezate tacâmuri și pahare de sticlă">
+        </div>
+        <div class="carousel-item">
+          <img src="restaurant4.jpg" class="d-block w-100" alt="Un bar în stil retro, industrial, cu tablouri pe pereți și rafturi pline
+          de sticle de băutură, mixere de cocktail și diverse alte accesorii">
+        </div>
+        <div class="carousel-item">
+          <img src="restaurant5.jpg" class="d-block w-100" alt="Becuri mari, aprinse, agățate de o țeavă ruginie, decorată cu viță
+          de vie">
+        </div>
+        <div class="carousel-item">
+          <img src="restaurant6.jpg" class="d-block w-100" alt="Restaurant în stil industrial, cu pereți din cărămidă,
+          cu tablouri micuțe, decorat cu lămpi masive și scaune negre, așezate la mese de lemn">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="despre" class="despre text-white">
+      <div class="container mt-5 pt-5 pb-5">
+        <div class="row">
+          <div class="col col-12 col-lg-6 pt-4">
+            <h2> Despre noi </h2>
+            <p>
+              Cine suntem? Care este misiunea noastră?
+            </p>
+            <p>
+              Fondat în 2018, restaurantul Noor&Co. se bucură de bucătari de excepție, gusturi rafinate și trei stele Michelin
+              care ne recomandă, fie că dorești să sărbătorești un eveniment important la noi sau doar să ieși la cină cu prietenii.
+            </p>
+            <p>
+              Misiunea noastră este să aducem în farfuria ta adevăratul gust al ingredientelor locale, proaspăt culese din surse
+              sustenabile, gătite cu grijă și mult drag de către bucătarii noștri. Susținem comunitățile locale, iar prin asta te
+              asigurăm că mănânci sănătos.
+            </p>
+          </div>
+          <div class="col col-12 col-lg-6 d-flex justify-content-center">
+            <div class="despre-img">
+              <img src="team.jpg" alt="Chipurile a trei fete, cea de sus, caucaziană, brunetă cu ochi albaștri, cea din mijloc,
+              de culoare, brunetă cu ochi negri și cea de jos, caucaziană, brunetă cu ochi negri, așezate orizontal">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="accordion accordion-flush mx-auto pt-5 pb-5 col-12 col-lg-10 col-sm-8" id="faq">
+      <div class="section-title text-white mb-4">
+        <h2> Faq </h2>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq-h1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Ce fac dacă am o rezervare și nu pot ajunge la timp?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+        data-bs-parent="#faq">
+          <div class="accordion-body">
+            <p>
+              Suni la numărul nostru de contact, iar colegii noștri te vor ajuta.
+              În plus, îți vom ține masa pe în așteptare pentru 15 minute.
+            </p>
+            <p>
+              La cerere, putem reprograma rezervarea ta.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq-h2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+          aria-expanded="false" aria-controls="flush-collapseTwo">
+            Meniul pentru evenimente este standard sau poate fi personalizat?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p>
+              Orice, oricum, oricât, oricând. Tu alegi ce va fi servit invitaților tăi.
+              Te programăm la degustare, iar tu îți alegi meniul.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faq-h3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+          aria-expanded="false" aria-controls="flush-collapseThree">
+            Apar beneficii de fidelitate?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">
+            <p> 
+              Desigur. 
+            </p>
+            <p> 
+              Cere cardul nostru de fidelitate cu nota de plată și mai departe, lasă-ne să te surprindem.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="de-ce-noi" class="de-ce-noi text-white">
+      <div class="container p-3">
+        <div class="section-title text-white">
+          <h2> De ce să alegi Noor? </h2>
+          <p> Uite câteva motive: </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="box p-5">
+              <span> 01 </span>
+              <h3> Alegi sustenabil </h3>
+              <p> 
+                Folosim panouri solare pentru a reduce consumul de lumină artificială.
+                Îți punem la dispoziție stații de încărcare electrică.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box p-5">
+              <span> 02 </span>
+              <h3> Alegi calitativ </h3>
+              <p> Ingredientele noastre provin din ferme biodinamice locale care nu folosesc pesticide sau chimicale. </p>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box p-5" id="meniu">
+              <span> 03 </span>
+              <h3> Alegi inclusiv </h3>
+              <p> Vegan? Vegetarian? Fără gluten? Fără lactoză? Alergic la diverse ingrediente? Nici o problemă. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu mt-5 mb-5 pb-5 pt-5 text-white">
+      <div class="container">
+        <div class="section-title">
+          <h2> Meniu </h2>
+          <p> Gusturile Noor sunt și mai bune în restaurant! Iată câteva dintre specialitățile noastre: </p>
+        </div>
+        <div class="row mt-5 mb-5 d-flex justify-content-center">
+          <div class="col-lg-12">
+            <ul id="menu-sections" class="d-flex justify-content-center">
+              <li> <h3> Aperitive </h3> </li>
+              <li> <h3> Feluri principale </h3> </li>
+              <li> <h3> Deserturi </h3> </li>
+              <li> <h3> Băuturi </h3> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row menu-container mt-5 mb-5">
+          <div class="col-lg-6 mb-5">
+            <img src="food1.jpg" class="menu-img" alt="Un bol colorat cu salată de smochine, prosciutto, ouă fierte și struguri">
+            <div class="menu-content mb-2">
+              <h4> Salată Roquefort cu fructe proaspete și uscate </h4>
+              <span>
+                16 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Smochine, rubarbă, struguri, merișoare confiate, brânză Roquefort, dressing
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food2.jpg" class="menu-img" alt="Un bol cu orzo verde, cremos, garnisit cu rodie, roșii și nuci, cu trei linguri
+            așezate în el">
+            <div class="menu-content mb-2">
+              <h4> Orzo cremos cu sos verde și rodie </h4>
+              <span>
+                20 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Orzo, sos pesto, rodie, varză roșie, portocală
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food3.jpg" class="menu-img" alt="Găluște dumpling, garnisite cu susan, așezate pe o farfurie rotundă din lemn și 
+            doua bețișoare chopsticks așezate lângă ele">
+            <div class="menu-content mb-2">
+              <h4> Dumplings japonezi </h4>
+              <span>
+                12 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Găluște japoneze umplute cu legume/carne servite cu sos de soia
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food4.jpg" class="menu-img" alt="Tăiței lați cu trufe, așezați pe o farfurie rotundă, lângă care se află
+            un recipient cu unt topit, un prosop de bucătărie și o răzătoare de parmezan">
+            <div class="menu-content mb-2">
+              <h4> Tagliatelle cu trufe și anghinare </h4>
+              <span>
+                24 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Paste, ulei de trufe, trufe rase, anghinare, piper
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food5.jpg" class="menu-img" alt="Foie gras garnisit cu varză roșie și pesmet din pâine, așezat într-o
+            farfurie rotundă, adâncă">
+            <div class="menu-content mb-2">
+              <h4> Foie gras </h4>
+              <span>
+                30 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Pateu de gâscă, servit cu varză roșie și crutoane din pâine
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food6.jpg" class="menu-img" alt="File de somon, cu legume și sos de soia, așezat pe o farfurie adâncă, albă">
+            <div class="menu-content mb-2">
+              <h4> Somon la cuptor </h4>
+              <span> 
+                26 lei 
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Somon marinat, dovlecel, ardei gras, praz, morcov
+            </div>
+          </div>
+          <div class="col-lg-6 mb-5">
+            <img src="food7.jpg" class="menu-img" alt="Prăjitură cu blat alb, cremă albă și zmeură, așezată pe o farfurie neagră,
+            rotundă și zmeură cu frunze în jur">
+            <div class="menu-content mb-2">
+              <h4> Prăjitură blondă cu zmeură </h4>
+              <span> 
+                10 lei
+              </span>
+            </div>
+            <div class="menu-ingredients">
+              Aluat pufos, cremă din unt, ganache de vanilie și zmeură proaspătă
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="evenimente" class="evenimente container mt-5 mb-5">
+      <div class="section-title text-white">
+        <h2> Evenimente </h2>
+        <p> Petrecerea ta de vis e la un telefon distanță! Tu îți alegi locația, meniul, data și invitații!
+        </p>
+      </div>
+      
+      <div class="row d-flex justify-content-center align-items-center text-center">
+        <div class="col col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="event2.jpg" alt="Mai mulți oameni sunt așezați la mese decorate elegant, într-un restaurant cu lumină ambientală
+            caldă și plante decorative atârnând din tavan">
+            <div class="card-body text-white">
+              <h3 class="card-title"> Petreceri </h3>
+              <p> $189 </p>
+              <p>
+                +100 pers.
+              </p>
+              <p>
+                Șampanie bonus la 30 lei/persoană
+              </p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col col col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="event1.jpg" alt="Invitații ciocnesc pahare de șampanie la o nuntă, într-o sală decorată cu multe
+            luminițe">
+            <div class="card-body text-white">
+              <h3 class="card-title"> Nunți </h3>
+              <p> $220 </p>
+              <p>
+                +250 pers.
+              </p>
+              <p>
+                Tu alegi meniul
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col col col-12 col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
+            <img src="event3.jpg" alt="O masă aranjată cu flori din paie, în fața unui perete verde închis ">
+            <div class="card-body text-white">
+              <h3 class="card-title"> Conferințe <span class="nou badge rounded-pill"> Nou </span> </h3>
+              <p> $150 </p>
+              <p class="fst-italic">
+                +80 pers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="chefs" class="chefs">
+      <div class="container mt-5 mb-5" data-aos="fade-up">
+        <div class="section-title text-white">
+          <h2> Echipa </h2>
+          <p> Faceți cunoștință cu bucătarii noștri șefi! </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="chef1.jpg" class="img-fluid" alt="Un bărbat roșcat, îmbrăcat într-un costum gri de bucătar, ține în mână
+              o farfurie cu un plating elegant">
+              <div class="member-info">
+                <div class="member-info-content text-white mb-5">
+                  <h3> Alex Dânculescu </h3>
+                  <span> Chef Manager </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="chef2.jpg" class="img-fluid" alt="Un bărbat brunet, purtând un șorț de bucătar, stă aplecat peste o farfurie și
+              ține în mâna dreaptă o cratiță, iar în cea stângă o lingură cu sos cu ajutorul căreia o decorează">
+              <div class="member-info">
+                <div class="member-info-content text-white mb-5">
+                  <h3> Tudor Diaconu </h3>
+                  <span> Chef specialist în plating </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <img src="chef3.jpg" class="img-fluid" alt="Un bărbat brunet, purtând un șorț de bucătar, se află într-o bucătărie, cu
+              tigăi agățate pe peretele din spate și gătește ceva pe aragaz">
+              <div class="member-info">
+                <div class="member-info-content text-white mb-5">
+                  <h3> Amza Jurnea </h3>
+                  <span> Chef patiser </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contact" class="contact text-white">
+      <div class="container mb-5">
+        <div class="section-header">
+          <h2> Contact </h2>
+        </div>
+        <div class="google-maps mb-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!4v1669156017910!6m8!1m7!1sWvrOacj8HHRHZ0lbU7nRHA!2m2!1d47.05623060020503!2d21.92948561644131!3f286.72716915575967!4f0!5f0.7820865974627469">
+          </iframe>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center p-4">
+              <div>
+                <h3> Unde te așteptăm? </h3>
+                <p> Piața Regele Ferdinand, Nr. 4, Oradea </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-item d-flex align-items-center p-4">
+              <div>
+                <h3> Scrie-ne </h3>
+                <p> noor@company.org </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    
+    <footer class="footer" id="rezervari-footer">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="footer-brand col-lg-3 col-md-6 d-flex justify-content-start pt-3">
+            <div>
+             <img src="turntable.png" alt="">
+              Noor
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div>
+              <h4>Rezervări</h4>
+              <p>
+                Telefon: +30 748 990 023 <br>
+                Email: noor@company.org <br>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 d-flex">
+            <div>
+              <h4>Orar</h4>
+              <p>
+                Luni-Vineri:  9am-23pm <br>
+                Sâmbătă-Duminică: 12pm-22pm
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="social-links d-flex">
+              <a href="#faq"> Faq </a>
+              <a href="https://www.instagram.com/" class="instagram">
+                <img src="instagram.png" alt="">
+              </a>
+              <a href="https://www.facebook.com/" class="facebook">
+                <img src="facebook.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright d-flex justify-content-center text-muted pt-3 pb-3">
+          © 2022 Noor, Ltd.
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
